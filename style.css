@@ -1,0 +1,220 @@
+/* Makeshift CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  width: 940px;
+  font: 13px/22px Helvetica, Arial, sans-serif;
+  background: #f0f0f0;
+}
+h2 {
+  font-size: 28px;
+  line-height: 44px;
+  padding: 22px 0;
+}
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 11px 0;
+}
+p {
+  padding-bottom: 22px;
+  margin-bottom: 10px;
+}
+nav {
+  display: block;
+  margin-top: 5%;
+  position: absolute;
+  left: 0;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+nav ul {
+  margin: 0;
+  width: 940px;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  width: 18%;
+}
+nav ul li a {
+  display: block;
+  margin-right: 20px;
+  width: 140px;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  color: #777;
+}
+nav ul li.subscribe a {
+  color: #ffffff;
+  margin-left: 22px;
+  padding-left: 33px;
+  text-align: left;
+  background: url("rss.png") right center no-repeat;
+  border-radius: 10px;
+}
+#intro {
+  margin-top: 66px;
+  padding: 44px;
+  margin-right: -25%;
+  background: black url("flower.jpg") repeat-x;
+  background-size: 100%;
+  border-radius: 22px;
+}
+#intro {
+  /* Background-size not implemented yet */
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  -khtml-background-size: 100%;
+  /* Border-radius not implemented yet */
+  border-radius: 15px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+}
+#intro h2,
+#intro p¬† {
+  width: 300px;
+}
+#intro h2 {
+  padding: 0 0 22px 0;
+  font-weight: normal;
+  color: #fff;
+}
+#intro p {
+  padding: 0;
+  color: #ffffff;
+  margin-bottom: 1px;
+}
+#content {
+  display: table;
+}
+#mainContent {
+  display: table-cell;
+  width: 620px;
+  padding-right: 22px;
+}
+aside {
+  display: table-cell;
+  width: 300px;
+}
+.blogPost {
+  column-count: 2;
+  column-gap: 22px;
+}
+.blogPost header {
+  column-span: all;
+}
+.blogPost img {
+  margin: 22px 0;
+  box-shadow: 3px 3px 7px #777;
+}
+.blogPost img {
+  margin: 22px 0;
+  -webkit-box-shadow: 3px 3px 7px #777;
+  -moz-box-shadow: 3px 3px 7px #777;
+  box-shadow: 3px 3px 7px #777;
+}
+section#comments article:nth-child(odd) {
+  background-color: lightgrey;
+}
+.image-container {
+  width: 450px;
+  height: 350px;
+  overflow: hidden;
+}
+.image-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 10;
+  margin-left: 10;
+}
+/* Sidebar styles */
+.sidebar {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 23.5%;
+  padding: 15px;
+  box-sizing: inherit;
+  margin-top: 35%;
+  margin-right: 3%;
+}
+.sidebar h3 {
+  padding: 0%;
+  text-align: center;
+  margin-bottom: 3;
+  position: relative;
+}
+.sidebar p {
+  padding-right: 2;
+  margin-top: auto;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 3px;
+  text-align: center;
+}
+.footer-container {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  width: 1100px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about,
+.blogroll,
+.popular {
+  flex-basis: calc(30% - 10px);
+  margin-bottom: 20px;
+}
+.about h3,
+.blogroll h3,
+.popular h3 {
+  margin: 5px;
+}
+.blogroll,
+.popular {
+  margin-right: 10px;
+  text-align: center;
+}
+.blogroll ul,
+.popular ul {
+  list-style: none;
+  padding: 10px;
+  padding-left: 20px;
+}
+.blogroll a,
+.popular a {
+  color: white;
+}
+.Box {
+  width: 80%;
+  margin-left: 2%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+pre {
+  white-space: pre-wrap; /* Preserve line breaks */
+}
